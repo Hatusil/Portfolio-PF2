@@ -130,7 +130,7 @@ body, div, ul, nav, header, footer, a, li, label {
 
 .burger-line {
     display: block;
-    width: 25px;
+    width: 24px;
     height: 3px;
     background-color: #fff;
     margin: 5px 0;
@@ -316,7 +316,7 @@ body, div, ul, nav, header, footer, a, li, label {
     }
 }
 
-/* MEDIA QUERIES */
+/* ---------------- MEDIA QUERIES ------------------- */
 
 @media (max-width: 991px) {
     .navbar .nav-links {
@@ -370,6 +370,7 @@ body, div, ul, nav, header, footer, a, li, label {
 
     .burger-menu {
         display: block;
+        z-index: 101;
     }
 
     .hero-text {
