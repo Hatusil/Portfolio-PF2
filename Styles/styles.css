@@ -556,7 +556,7 @@ body, div, ul, nav, header, footer, a, li, label {
 .portfolio {
     background-color: #222;
     color: #fff;
-    min-height: 100vh;
+    min-height: 80vh;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -580,10 +580,10 @@ margin-top: 0.2rem;
     grid-template-columns: 1fr;
     max-width: 1300px;
     margin: auto;
-    width: 100%;
+    width: 90%;
     gap: 12px;
     padding: 20px;
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 .portfolio__project{
