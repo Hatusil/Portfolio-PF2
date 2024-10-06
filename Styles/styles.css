@@ -424,6 +424,7 @@ body, div, ul, nav, header, footer, a, li, label {
     margin: 10px; 
     color: #26a;
 }
+
 /* ------- Imagen ---------*/
 .profile__img-container {
     display: flex;
@@ -437,6 +438,7 @@ body, div, ul, nav, header, footer, a, li, label {
     max-width: 100%;
     height: auto;
 }
+
 /* ------- Titulo principal ---------*/
 
 .profile__description{
@@ -559,13 +561,14 @@ body, div, ul, nav, header, footer, a, li, label {
     flex-direction: column;
     text-align: center;
     justify-content: space-evenly;
-    margin-top: 40px;
+    margin-top: 10px;
     container-name: portfolio;
     container-type: inline-size;
 }
 
 .portfolio h2 {
 color: #fff;
+margin-top: 0.2rem;
 }
 
 .portfolio__title{
