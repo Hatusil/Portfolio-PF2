@@ -172,7 +172,7 @@ body, div, ul, nav, header, footer, a, li, label {
 .mobile-nav-links {
     list-style: none;
     position: fixed;
-    top: 60px;
+    top: 80px;
     right: 0;
     width: 100%;
     background-color: #2980b9;
@@ -584,7 +584,7 @@ color: #fff;
 }
 
 .portfolio__project{
-    background-image:linear-gradient(#0009, #0009), url("/img/ewok.jpg");
+    background-image:linear-gradient(#0009, #0009), url("../img/ewok.jpg");
     background-position: center;
     background-size: cover;
     display: grid;
