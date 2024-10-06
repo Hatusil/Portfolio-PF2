@@ -23,10 +23,24 @@ function makeNavbarFixed() {
 
 // Menu Hamburguesa
 burgerMenu.addEventListener('click', () => {
+    toggleMobileMenu();
+});
+
+// Cerrar menú al hacer clic en un enlace
+navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        if (mobileNavLinks.classList.contains('show')) {
+            toggleMobileMenu();
+        }
+    });
+});
+
+// Alternar menú móvil
+function toggleMobileMenu() {
     mobileNavLinks.classList.toggle('show');
     burgerLine.classList.toggle('burger-line--active');
     burgerMenu.classList.toggle('open');
-});
+}
 
 // Desplazamiento "smooth" a otras secciones de la página u otros archivos HTML
 navLinks.forEach(link => {
@@ -57,8 +71,7 @@ function smoothScrollTo(targetId) {
 // Evento de scroll
 window.addEventListener('scroll', updateNavbar);
 
-
-// Evento para el teclado del menu amburguesa
+// Evento para el teclado del menú hamburguesa
 burgerMenu.addEventListener('keydown', (e) => {
     if (e.key === 'Enter') {
         burgerMenu.click();
